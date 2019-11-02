@@ -4,4 +4,4 @@
 filePath = "Test.TXT"
 
 main = do
-    writeFile filePath "\nSup Thanos"
+    writeFile filePath "Sup Thanos"
