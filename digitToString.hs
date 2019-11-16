@@ -15,7 +15,5 @@ digitToString n =
 
 main = do
     inp <- getLine
-            if (inp == "End") 
-                then putStrLn "Bye!"
-            else digitToString inp
-        main
+    (digitToString (read inp :: Integer))
+    main
