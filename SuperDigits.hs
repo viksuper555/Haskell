@@ -24,9 +24,9 @@ getFirstNumberIndex str i =
 
 main = do
     str <- getLine
-    let strNum = show str 
+    let strNum = show str
     let firstNumIndex = getFirstNumberIndex strNum 0
     let n = (take firstNumIndex str)
     let k = (read (drop (firstNumIndex +1) str) :: Integer)
     let num = read(repeatStr n k) :: Integer
-    print (super_digit num)
+    print (num)
